@@ -1,0 +1,15 @@
+/* The file encoding is Windows-1251 */
+
+:start
+pln Спорим, я сейчас выведу три ссылки, принудительно установив фокус на вторую из них?
+btn demo, Да ладно? Покажи!
+end
+
+:demo
+pln Интересуетесь созданием игр на UrqW? Скачайте <a href="https://github.com/narmiel/UrqW/releases" target="_blank">интерпретатор</a>, почитайте <a href="http://narmiel.github.io/UrqW/docs/urql.html" target="_blank">документацию</a> и, если будут проблемы, спросите на <a href="http://forum.ifiction.ru/viewtopic.php?id=2138" target="_blank">iFiction</a>.<span class="eval">document.getElementById('textfield').getElementsByTagName('A')[1].focus();</span>
+btn repeat, Ни фига себе! Покажи ещё раз!
+end
+
+:repeat
+pln Да как два пальца...
+goto demo
