@@ -7,6 +7,9 @@ due to its focus on a Russian-speaking audience.
 
 *Версия от 12.07.2017 для UrqW 1.0.*
 
+Внимание! Этот плагин устарел: в UrqW 1.1 beta данная функциональность
+реализована как встроенная.
+
 Плагин для [UrqW](https://github.com/urqw/UrqW),
 добавляющий функциональность исполнения JavaScript из текста квестов на URQL.
 
